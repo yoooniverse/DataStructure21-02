@@ -1,8 +1,8 @@
 //
 //  main.c
-//  main2
-//
-//  Created by YOONKYUNG LEE on 2021/09/26.
+//  Data Structure
+//  Assignment2-2
+//  작성자 : 국어국문학과 1720047 이윤경
 //
 
 #include <stdio.h>
