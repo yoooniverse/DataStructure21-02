@@ -73,6 +73,7 @@ int main(void) {
     
     
     display(&head_node);
+    printf("head_node.llink의 주소 : ");
     printf("%x\n", &(head_node.llink));
     
     
