@@ -32,9 +32,9 @@ TreeNode *exp_root = &n7;
 //주어진 노드의 이전 노드 찾기.
 TreeNode *tree_predecessor(TreeNode *p) {
     if (p->left != NULL) {
-        p = p->left;   //p를 오른쪽 서브트리로 지정한다음
-        while (p->right) p = p->right;    //가장 왼쪽에 있는 노드까지 가도록 while 반복 사용
-        return p;   //가장 왼쪽으로 가면 해당 노드를 반납한다. 그게 이전 노드의 successor가 됨.
+        p = p->left;   //p를 왼쪽 서브트리로 지정한다음
+        while (p->right) p = p->right;    //가장 오른쪽에 있는 노드까지 가도록 while 반복 사용
+        return p;   //가장 오른쪽으로 가면 해당 노드를 반납한다. 그게 이전 노드의 predecessor가 됨.
     }
     
     TreeNode *y = p->parent;
